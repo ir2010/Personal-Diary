@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ir_sj.personaldiary.MainActivity">
+
+    <item
+        android:id="@+id/hidden"
+        android:orderInCategory="100"
+        android:title="Hidden Folder"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_security_black_24dp"/>
+
+    <item android:id="@+id/search"
+        app:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Captain's Diary"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/changeMode"
+        android:orderInCategory="100"
+        android:title="Change Mode"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/help"
+        android:orderInCategory="100"
+        android:title="Help"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/dev"
+        android:orderInCategory="100"
+        android:title="Developers"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/signout"
+        android:title="LogOut"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Personal Diary</string>
+    <string name="title_activity_editor">EditorActivity</string>
+    <string name="title_activity_phone_sign_up">Sign in with Phone Number</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="firebase_web_client">223765225643-m63gba4dgparse7tjol0q6416db385j0.apps.googleusercontent.com</string>
+
+    <string name="title_activity_help">Help</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_hidden_folder">HiddenFolder</string>
+    <string name="title_activity_edit">Edit</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

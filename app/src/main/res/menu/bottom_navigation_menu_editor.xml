@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bg"
+        android:orderInCategory="100"
+        android:title="Change Background Color"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_format_color_fill_black_24dp"/>
+
+    <item
+        android:id="@+id/addPic"
+        android:orderInCategory="100"
+        android:title="Add Picture"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_photo_black_24dp"/>
+
+    <item
+        android:id="@+id/format"
+        android:orderInCategory="100"
+        android:title="Format Text"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_text_format_black_24dp"/>
+
+
+    <item
+        android:id="@+id/save"
+        android:orderInCategory="100"
+        android:title="Save"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_save_black_24dp"/>
+
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/protect"
+        android:orderInCategory="100"
+        android:title="Protect"
+        app:showAsAction="never"
+        android:enabled="true"
+        android:icon="@drawable/ic_lock_black_24dp"/>
+
+     <item
+         android:id="@+id/move"
+         android:orderInCategory="100"
+         android:title="Move"
+         app:showAsAction="never"
+         android:enabled="true"
+         android:icon="@drawable/ic_all_inclusive_black_24dp"/>
+
+    <item
+         android:id="@+id/rename"
+         android:orderInCategory="100"
+         android:title="Rename"
+         app:showAsAction="never"
+         android:enabled="true"
+         android:icon="@drawable/ic_create_black_24dp"/>
+
+    <item
+        android:id="@+id/details"
+        android:orderInCategory="100"
+        android:title="Details"
+        app:showAsAction="never"
+        android:enabled="true"
+        android:icon="@drawable/ic_description_black_24dp"/>
+
+</menu>

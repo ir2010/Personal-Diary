@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list"
+    android:name="com.ir_sj.personaldiary.FileExplorerFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    app:layoutManager="LinearLayoutManager"
+    tools:context="com.ir_sj.personaldiary.FileExplorerFragment"
+    tools:listitem="@layout/fragment_item" />-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/test"
+        android:text="text"/>
+
+    <GridView
+        android:id="@+id/fileGrid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="80dp"
+        android:footerDividersEnabled="false"
+        android:horizontalSpacing="50dp"
+        android:listSelector="#869997"
+        android:numColumns="3"
+        android:padding="1dp"
+        android:verticalSpacing="50dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "223765225643",
+    "firebase_url": "https://personal-diary-2c8dd.firebaseio.com",
+    "project_id": "personal-diary-2c8dd",
+    "storage_bucket": "personal-diary-2c8dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223765225643:android:e3b5a0c2899c31943717ee",
+        "android_client_info": {
+          "package_name": "com.ir_sj.personaldiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223765225643-5trsnbs4nmdm54tul1n38rhrsg3cfm7l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ir_sj.personaldiary",
+            "certificate_hash": "c85605ce630691aa4f679c7860d858b531824eaa"
+          }
+        },
+        {
+          "client_id": "223765225643-m63gba4dgparse7tjol0q6416db385j0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGm7EGo2vHAt5Z_9jgXhyNHwdcGIl-_1A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223765225643-m63gba4dgparse7tjol0q6416db385j0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/my_selector">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="50dip"
+        android:layout_height="50dip" >
+    </ImageView>
+
+    <TextView
+    android:id="@+id/fName"
+    android:text="name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:singleLine="true"
+    android:textStyle="bold"
+    android:layout_toRightOf="@+id/icon"
+    android:layout_marginTop="5dip"
+    android:layout_marginLeft="5dip"/>
+
+    <!--<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        android:text="@+id/TextView01"
+        <TextView
+        android:id="@+id/fName"
+        android:text="name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/icon"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="5dip"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView android:text="@+id/size"
+                android:id="@+id/size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/icon"
+                android:layout_below="@+id/fName"
+                android:layout_marginLeft="10dip">
+            </TextView>
+
+            <TextView android:text="Date"
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fName"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="5dip">
+             </TextView>
+         </LinearLayout>
+    </LinearLayout>-->
+</LinearLayout>

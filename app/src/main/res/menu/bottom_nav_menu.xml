@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ir_sj.personaldiary.MainActivity">
+
+    <item
+        android:id="@+id/delete"
+        android:orderInCategory="100"
+        android:title="Delete"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_delete_black_24dp"/>
+
+    <item
+        android:id="@+id/share"
+        android:orderInCategory="100"
+        android:title="Share"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_share_black_24dp"/>
+
+    <item
+        android:id="@+id/more"
+        android:orderInCategory="100"
+        android:title="More"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_more_vert_black_24dp" />
+
+</menu>
